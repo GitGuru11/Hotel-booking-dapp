@@ -2,7 +2,7 @@ import React,{ useContext } from 'react';
 import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
 import { HotelBookingContext } from '../context/HotelBookingContext';
 
-
+var cnt = 0;
 const NavbarComponent = () => {
     const { connectedAddress } = useContext(HotelBookingContext);
 
